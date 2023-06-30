@@ -1,5 +1,9 @@
 import java.util.*;
 
+// Given a number n and its reverse r. Find that number raised to the power of its own reverse.
+// Expected Time Complexity: O(LogN).
+// Expected Auxiliary Space: O(LogN).
+
 public class Main
 {
 	public static void main(String[] args) {

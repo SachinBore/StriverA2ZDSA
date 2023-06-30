@@ -3,6 +3,10 @@
 
 using namespace std;
 
+// Given a number n and its reverse r. Find that number raised to the power of its own reverse.
+// Expected Time Complexity: O(LogN).
+// Expected Auxiliary Space: O(LogN).
+
 long long power(int n, int r) {
 
 	if (r == 0) return 1;
